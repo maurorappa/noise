@@ -23,3 +23,7 @@ kubectl logs -f noise
 ......
 
 ``` 
+
+in the above example you can see during the first minute of its execution, for 7 times the interval between executions was far away from a second: plus or minus 0.5 milliseconds
+
+Now you can compare settings in your K8s cluster to try to make it more predictable 
