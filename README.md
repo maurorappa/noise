@@ -1,6 +1,7 @@
 # Noise: container to test the predictability of the binary execution
 
 This simple program continually compares the time after sleeping for a second and plot a dot if the absolute value of the difference between two executions is greater than a threshold.
+It uses a similar approach of: https://docs.azul.com/prime/jHiccup
 Every minute it starts a new line, so you can see how often during a minute its execution did not happened periodically.
 
 
